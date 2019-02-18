@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameArtSpecification>
 	<id>
-		<name text="Finland - Sauli Niinistö"/>
-		<id text="34a90afa-bab4-4dcd-a294-fc9f9809906e"/>
+		<name text="Finland Sauli"/>
+		<id text="978e3b44-b93a-403f-9e0c-5698673a494e"/>
 	</id>
 	<artConsumers>
 		<Element>
@@ -319,6 +319,7 @@
 		<Element>
 			<consumerName text="LeaderFallback"/>
 			<relativeArtDefPaths>
+				<Element text="FallbackLeaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="LeaderFallback"/>
@@ -455,6 +456,7 @@
 		<Element>
 			<libraryName text="LeaderFallback"/>
 			<relativePackagePaths>
+				<Element text="LeaderFallbacks"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -545,6 +547,10 @@
 		<Element>
 			<libraryName text="UITexture"/>
 			<relativePackagePaths>
+				<Element text="UILeaders"/>
+				<Element text="LeaderBackgrounds"/>
+				<Element text="LEADER_JRA_LEADER_CUSTOM"/>
+				<Element text="Icons"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
